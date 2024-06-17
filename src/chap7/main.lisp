@@ -72,7 +72,7 @@
 		   :direction :output
 		   :if-exists :supersede)
     (funcall thunk))
-  (sb-ext:run-program "C://Users/junni/Desktop" `("-Tpng" "-O" ,fname)))
+  (sb-ext:run-program "C://Users/junni/.roswell/local-projects/land-of-lisp/" `("-Tpng" "-O" ,fname)))
 
 (defun graph->png (fname nodes edges)
   (dot->png fname
