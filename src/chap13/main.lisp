@@ -1,4 +1,4 @@
-j(define-condition foo () ()
+(define-condition foo () ()
   (:report (lambda (condition stream)
 	     (princ "Stop fooing around, numbskull!" stream))))
 
